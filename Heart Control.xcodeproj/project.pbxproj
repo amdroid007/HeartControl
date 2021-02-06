@@ -96,6 +96,7 @@
 		BE70700A1D57A14300E41B95 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE70700C1D57A29500E41B95 /* AuthorizationManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationManger.swift; sourceTree = "<group>"; };
 		BEB5C5BA1D4F656D00BBF490 /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		C703680925B7A45500C3001C /* Heart Control WatchKit Extension copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Heart Control WatchKit Extension copy-Info.plist"; path = "/Users/asengupt/Documents/GitHub/HeartControl/Heart Control WatchKit Extension copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +127,7 @@
 				BE25B00C1D4F33B100DAF094 /* Heart Control WatchKit Extension */,
 				BE25AFE81D4F33B100DAF094 /* Products */,
 				BE496A191D4F467100C82C4F /* Frameworks */,
+				C703680925B7A45500C3001C /* Heart Control WatchKit Extension copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -281,7 +283,7 @@
 				TargetAttributes = {
 					BE25AFE61D4F33B000DAF094 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = E6HN743D3A;
+						DevelopmentTeam = AN92UK63A8;
 						DevelopmentTeamName = "Thomas Mann";
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -292,13 +294,13 @@
 					};
 					BE25AFF81D4F33B100DAF094 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = E6HN743D3A;
+						DevelopmentTeam = AN92UK63A8;
 						DevelopmentTeamName = "Thomas Mann";
 						ProvisioningStyle = Automatic;
 					};
 					BE25B0071D4F33B100DAF094 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = E6HN743D3A;
+						DevelopmentTeam = AN92UK63A8;
 						DevelopmentTeamName = "Thomas Mann";
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -317,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -521,13 +524,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Heart Control WatchKit Extension/Heart Control WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				INFOPLIST_FILE = "Heart Control WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -538,13 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Heart Control WatchKit Extension/Heart Control WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				INFOPLIST_FILE = "Heart Control WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -555,9 +560,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				IBSC_MODULE = Heart_Control_WatchKit_Extension;
 				INFOPLIST_FILE = "Heart Control WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -572,9 +578,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				IBSC_MODULE = Heart_Control_WatchKit_Extension;
 				INFOPLIST_FILE = "Heart Control WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -589,11 +596,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Heart Control/Heart Control.entitlements";
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				INFOPLIST_FILE = "Heart Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -602,11 +610,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Heart Control/Heart Control.entitlements";
+				DEVELOPMENT_TEAM = AN92UK63A8;
 				INFOPLIST_FILE = "Heart Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.Heart-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartrfsolutions.Heart-Control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
